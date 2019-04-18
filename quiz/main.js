@@ -165,11 +165,11 @@ function getPercentage(key) {
       ]
     }]
   });
-  chart.render();
     }
 
 
 window.onclick = function (event) {
+  chart.render();
   $(this).addClass('out');
   $('body').removeClass('modal-active');
   if (event.target == result) {
